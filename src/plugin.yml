@@ -1,0 +1,32 @@
+name: Eno
+version: 1.0
+author: Mirsaid Patarov
+
+main: Syntak
+
+
+permissions:
+    eno.*:
+        default: op
+
+commands:
+    eno:
+        description: Plugin commands
+        permissions:
+            eno.help
+    setshop:
+        description: Create shop location
+        permissions:
+            eno.setshop
+    shop:
+        description: Teleport  to shop
+        permissions:
+            eno.shop
+    spy:
+        description: It makes you invisible
+        permissions:
+            eno.spy
+    unspy:
+        description: It makes you visible
+        permissions:
+            eno.spy
